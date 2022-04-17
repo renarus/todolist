@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+
+/* BackGround Colors */
+
+.little-box {
+  background-color: #FFDC40;
+  width: 100%;
+  height: 38px;
+  border-radius: 10px 10px 0 0;
+}
+
+.waveContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-ToDo {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 347px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.list-Title {
+  font-style: normal;
+  width: 100%;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 17px;
+  color: #000000;
+  font-family: roboto;
+  font-family: "Roboto", sans-serif;
+}
+
+.sorting {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+}
+
+.sort {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: end;
+}
+
+.todoListParent {
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.listsLi {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.listİnputİtem {
+  width: 100%;
+  border: 0;
+}
+
+.listİnputİtem {
+  border: none;
+  outline: none;
+}
+
+.listİnputİtem:active {
+  border: none;
+  outline: none;
+}
+
+.listXIcon {
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+.listXIcon:hover {
+  background-color: #787878;
+
+}
+
+
+.buttons {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  border: 20px;
+  background-color: #833AE0;
+  border-radius: 50px;
+  transition: all 0.7s;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+.buttons:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.603);
+  background-color: #8a63be;
+}
+
+.btnPlus {
+  background-color: #9953F1;
+  padding: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 80px;
+  width: 5%;
+  color: white;
+}
+
+.add {
+  color: white;
+  font-family: roboto;
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+
+}
